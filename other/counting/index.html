@@ -1,31 +1,32 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset='utf-8'>
-    <title>tetraxile</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
-  </head>
-  <body>
-
-    <h1>Custom Range Slider</h1>
-    <p>Drag the slider to display the current value.</p>
-
-    <div class="slidecontainer">
-      <input type="range" min="1" max="83380" value="83380" class="slider" id="myRange">
-      <p>Value: <span id="demo"></span></p>
-    </div>
-
-    <script>
-      var slider = document.getElementById("myRange");
-      var output = document.getElementById("demo");
-      output.innerHTML = slider.value;
-
-      slider.oninput = function() {
-        output.innerHTML = this.value;
-      }
-    </script>
-
-  </body>
+<html lang="en">
+    <head>
+        <meta charset='utf-8'>
+        <title>tetraxile</title>
+        <link rel="stylesheet" href="style.css">
+        <script>
+            function discordAlert() {
+                alert("Discord username: tetraxile#9452");
+            }
+        </script>
+        <script src="https://kit.fontawesome.com/2900f66021.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="navbar">
+            <a href="/">Home</a>
+            <a href="/mods">Mods</a>
+            <a href="/other">Other projects</a>
+            <div class=navbar-right>
+                <a href="https://www.twitter.com/tetraxile"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.twitch.tv/tetraxile"><i class="fab fa-twitch"></i></a>
+                <a href="https://www.youtube.com/channel/UCDeC8wnq23ZnB06iwzOJD9A"><i class="fab fa-youtube"></i></a>
+                <a href="https://github.com/tetraxile"><i class="fab fa-github"></i></a>
+                <a onclick="discordAlert()"><i class="fab fa-discord"></i></a>
+            </div>
+        </div>
+        <div class="main">
+            <h1>tetraxile</h1>
+            <p>hi<br>i don't know what to put here :)</p>
+        </div>
+    </body>
 </html>
